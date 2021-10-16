@@ -59,17 +59,35 @@ h1 {
 
 }
 
+.main p {
+    width: 37ch;
+}
+
 .container {
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    border: 1px solid red;
+    justify-content: center;
+    gap: 7rem;
+    height: 25rem;
 }
 
 .placeholder-img {
-    background-color: grey;
-    height: 13rem; /* 208px */
-    
+    background-color: #949494;
+    height: 18rem; /* 208px */
+    width: 40rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main button {
+    border-style: none;
+    padding: 0.4rem;
+    width: 8rem;
+    border-radius: 10px;
+    color: #F9FAF8;
+    font-weight: 700;
+    font-size: 1rem;
 }
 
 /* Information Area */
