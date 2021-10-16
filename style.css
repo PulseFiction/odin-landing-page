@@ -88,6 +88,7 @@ h1 {
     color: #F9FAF8;
     font-weight: 700;
     font-size: 1rem;
+    background-color: #3882F6;
 }
 
 /* Information Area */
@@ -151,14 +152,62 @@ figcaption {
     margin-left: 25rem;
     font-weight: 400;
     font-size: 20px;
+}
 
 /* Call to action/register area */
 
-.register-card, button {
-    background-color: #3882F6;
+.register-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
 }
 
 
+
+.text {
+    background-color: #3882F6;
+    padding: 2rem 8rem;
+    border-radius: 5px 0 0 5px;
+    color: #E5E7EB;
+}
+
+
+
+
+.register-card button {
+    background-color: #3882F6;
+    width: 7rem;
+    border-radius: 10px;
+    color: #F9FAF8;
+    font-weight: 700;
+    font-size: 0.7rem;
+    padding: 0.4rem;
+    border-style: solid;
+}
+
+/* This is janky as hell, 
+don't know why I used such a weird height unit*/ 
+
+.register-button {
+    background-color: #3882F6;
+    height: 10.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 4rem;
+    border-radius: 0 5px 5px 0;
+}
+
+
+/* Footer area */
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
