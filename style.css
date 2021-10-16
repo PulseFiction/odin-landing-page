@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;600;700&display=swap');
 
 
 * {
@@ -97,10 +97,38 @@ h1 {
     font-weight: 600;
     color: #1F2937;
 }
+
+.info-bar {
+    text-align: center;
+}
+
+.box {
+    width: 7rem;
+    height: 7rem;
+    border: 2px solid #3882F6;
+    border-radius: 10px;
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding-bottom: 6rem;
+    
+    
+}
+
+.card p {
+    width: 14ch;
+}
 /* Quote Area */ 
 
 .quote-bar {
     background-color: #E5E7EB;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+    
 }
 
 .quote {
@@ -108,7 +136,21 @@ h1 {
     font-weight: lighter;
     font-style: italic;
     color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+
+.quote q {
+    width: 35ch;
+}
+
+figcaption {
+    text-align: center;
+    
+    margin-left: 25rem;
+    font-weight: 400;
+    font-size: 20px;
 
 /* Call to action/register area */
 
