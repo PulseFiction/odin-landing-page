@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;600;700&display=swap');
+
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.header, .footer, .container {
+    background-color: #1F2937;
+    color: #E5E7EB;
+
+}
+
+/* General/Mixed */
+
+a, .main p {
+    font-size: 18px;
+    
+}
+
+/* Header Area */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.header h2 {
+    font-size: 24px;
+    color: #F9FAF8;
+
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+/* Main Area (Hero area) */
+
+h1 {
+    font-size: 48px;
+    font-weight: 600;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid red;
+}
+
+.placeholder-img {
+    background-color: grey;
+    height: 13rem; /* 208px */
+    
+}
+
+/* Information Area */
+
+.info-bar h2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #1F2937;
+}
+/* Quote Area */ 
+
+.quote-bar {
+    background-color: #E5E7EB;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+/* Call to action/register area */
+
+.register-card, button {
+    background-color: #3882F6;
+}
+
+
+
+
+
+
